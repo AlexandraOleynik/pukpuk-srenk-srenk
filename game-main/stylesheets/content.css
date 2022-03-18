@@ -1,0 +1,219 @@
+body{
+  background: black;
+  font-family: "VKHUTETYPE";
+  overflow: hidden;
+}
+.person1{
+  margin-top: 36%;
+  text-align: center;
+  position: relative;
+}
+.person11{
+  width: 11%;
+}
+#starttext{
+  position: relative;
+  text-align: center;
+  color: #993626;
+  font-size: 3vw;
+  margin-top: -37%;
+}
+#starttext1{
+  position: relative;
+  text-align: center;
+  color: #993626;
+  font-size: 3vw;
+  margin-top: 1% ;
+}
+#starttext2{
+  position: relative;
+  text-align: center;
+  color: #993626;
+  font-size: 3vw;
+  margin-top: 1% ;
+}
+.start1{
+  width: 100vw;
+  position: fixed;
+  display: block;
+  z-index: 3;
+    background: black;
+}
+.start2{
+  width: 100vw;
+  position: fixed;
+  display: none ;
+  z-index: 2;
+    background: black;
+    animation: start2 500ms ;
+      animation-play-state: paused;
+  }
+  @keyframes start2 {
+      0% {
+          left:0%;  top:0%;;
+      }
+
+      100% {
+         left:0%;  top:-100%;
+      }
+    }
+.start3{
+  width: 100vw;
+  position: fixed;
+  display: none;
+  z-index: 1;
+  background: black;
+  animation: start3 500ms ;
+    animation-play-state: paused;
+}
+@keyframes start3 {
+    0% {
+        left:0%;  top:100%;;
+    }
+
+    100% {
+       left:0%;  top:0%;
+    }
+  }
+#hammer{
+  margin-left: -3%;
+  width: 120%;
+    transform-origin: right bottom ;
+  animation: hammer 1s infinite;
+    animation-play-state: paused;
+}
+@keyframes hammer {
+    0% {
+        transform:rotate(0deg);
+    }
+
+    100% {
+        transform:rotate(-50deg);
+    }
+  }
+.hammer1{
+  margin-left: 42%;
+  margin-top: -67%;
+  position: absolute;
+  overflow: hidden;
+  padding-right: ;
+  padding-bottom: 15%;
+  padding-left: 5%;
+}
+#starticon{
+  width: 30%;
+}
+#starticon1{
+  text-align: center;
+  margin-top: -30%;
+  position: relative;
+  animation: start 4000ms linear infinite;
+      animation-timing-function: ease-in-out;
+  }
+  @keyframes start {
+      0% {
+        opacity: 0%;
+      }
+      10% {
+        opacity: 100%;
+      }
+      20% {
+          opacity: 0%;
+      }
+      30% {
+          opacity: 100%;
+      }
+      40% {
+          opacity: 0%;
+      }
+      50% {
+          opacity: 100%;
+      }
+      60% {
+          opacity: 0%;
+      }
+      70% {
+          opacity: 100%;
+      }
+      80% {
+          opacity: 0%;
+      }
+      90% {
+          opacity: 100%;
+      }
+      100% {
+          opacity: 0%;
+      }
+
+  }
+.person22{
+  width: 40%;
+}
+.person2{
+  margin-top: 15%;
+  margin-left: 50%;
+  position: relative;
+}
+.flameicon {
+  position: relative;
+  margin-left: 2%;
+  width: 10%;
+}
+.headicon {
+  position: relative;
+  margin-left: 2%;
+  width: 10%;
+}
+.icons{
+  position: relative;
+  margin-top: -35%;
+}
+.icons2{
+  position: relative;
+  margin-top: 2%;
+}
+.weighticon{
+  position: relative;
+  margin-left: 2%;
+  width: 10%;
+}
+.lightningicon{
+  position: relative;
+  margin-left: 2%;
+  width: 10%;
+}
+.icons3{
+  position: relative;
+  margin-top: 2%;
+}
+.eyeicon{
+  position: relative;
+  margin-left: 2%;
+  width: 10%;
+}
+.lanceicon{
+  position: relative;
+  margin-left: 2%;
+  width: 10%;
+}
+.sins{
+  position: relative;
+  width: 10%;
+}
+.sins1{
+  position: relative;
+  margin-left: 2%;
+  margin-top: -41%;
+}
+.string{
+  position: relative;
+  width: 11.5%;
+}
+.string1{
+  position: relative;
+  margin-left: 14.5%;
+  margin-top: -2.5%;
+}
+.counter{
+  position: relative;
+}
