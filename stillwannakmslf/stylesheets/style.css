@@ -1,0 +1,4 @@
+@import "reset.css";
+@import "content.css"; /* контент / содержимое  */
+@import "responsive.css";/* адаптивность */
+@import "fonts.css";
