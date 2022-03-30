@@ -16,3 +16,15 @@ $("#square1").click(function(){
     $("#game1").css("display", "block");
 });
 });
+$(function(){
+$("#buttonleft").click(function(){
+    $("#fox").css("animation-play-state", "running");
+    setTimeout(function(){
+        $("#fox").css("animation", "none");
+    },500);
+    setTimeout(function(){
+        $("#fox").css("animation", "fox 500ms forwards");
+        $("#fox").css("animation-play-state", "paused");
+    },501);
+});
+});
